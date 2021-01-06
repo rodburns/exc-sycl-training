@@ -65,9 +65,6 @@ cmake ../ -DSYCL_ACADEMY_USE_COMPUTECPP=ON -DSYCL_LANGUAGE_VERSION=2020 -DSYCL_A
 Then open the source file for this exercise and include the SYCL header file
 `"SYCL/sycl.hpp"`.
 
-Make sure before you do this you define `SYCL_LANGUAGE_VERSION` to `2020`, to
-enable support for the SYCL 2020 interface.
-
 Once that is done build your source file with your chosen build system.
 
 ### 5.) Compile and run
@@ -77,6 +74,8 @@ and invoke the executable.
 
 ## Build and execution hints
 
-```make exercise_01_compiling_with_sycl_source
-./Code_Exercises/Exercise_01_Compiling_with_SYCL/exercise_01_compiling_with_sycl_source```
+```
+make exercise_01_compiling_with_sycl_source
+./Code_Exercises/Exercise_01_Compiling_with_SYCL/exercise_01_compiling_with_sycl_source
+```
 

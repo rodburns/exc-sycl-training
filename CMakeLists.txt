@@ -48,8 +48,6 @@ list(APPEND CMAKE_MODULE_PATH
 
 find_package(Threads REQUIRED)
 
-add_subdirectory(Utilities)
-
 # ComputeCpp setup
 
 if (SYCL_ACADEMY_USE_COMPUTECPP)
