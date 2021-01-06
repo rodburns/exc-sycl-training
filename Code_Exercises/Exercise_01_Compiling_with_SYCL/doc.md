@@ -47,7 +47,7 @@ First fetch the tutorial samples from GitHub.
 Clone this repository *ensuring that you include sub-modules*.
 
 ```
-git clone --recursive https://github.com/codeplaysoftware/syclacademy.git
+git clone --recursive https://github.com/rodburns/exc-sycl-training.git
 ```
 
 Then create a build directory and run CMake with your chosen generator.
