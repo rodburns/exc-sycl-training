@@ -70,5 +70,5 @@ SYCL API `free` and not the standard C `free`.
 
 ## Build and execution hints
 
-```make exercise_08_usm_vector_add_source```
-```./Code_Exercises/Exercise_08_USM_Vector_Add/exercise_08_usm_vector_add_source```
+```make exercise_08_usm_vector_add_source
+./Code_Exercises/Exercise_08_USM_Vector_Add/exercise_08_usm_vector_add_source```

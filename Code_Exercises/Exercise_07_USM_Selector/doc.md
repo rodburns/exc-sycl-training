@@ -25,5 +25,5 @@ create a `queue` using it to select it's device, remember to handle errors.
 
 ## Build and execution hints
 
-```make exercise_07_usm_selector_source```
-```./Code_Exercises/Exercise_07_USM_Selector/exercise_07_usm_selector_source```
+```make exercise_07_usm_selector_source
+./Code_Exercises/Exercise_07_USM_Selector/exercise_07_usm_selector_source```

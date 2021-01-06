@@ -77,6 +77,6 @@ and invoke the executable.
 
 ## Build and execution hints
 
-```make exercise_01_compiling_with_sycl_source```
-```./Code_Exercises/Exercise_01_Compiling_with_SYCL/exercise_01_compiling_with_sycl_source```
+```make exercise_01_compiling_with_sycl_source
+./Code_Exercises/Exercise_01_Compiling_with_SYCL/exercise_01_compiling_with_sycl_source```
 
