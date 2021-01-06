@@ -44,7 +44,7 @@ compile your first SYCL application from source code.
 
 First fetch the tutorial samples from GitHub.
 
-Clone this repository ensuring that you include sub-modules.
+Clone this repository *ensuring that you include sub-modules*.
 
 ```
 git clone --recursive https://github.com/codeplaysoftware/syclacademy.git
@@ -53,11 +53,11 @@ git clone --recursive https://github.com/codeplaysoftware/syclacademy.git
 Then create a build directory and run CMake with your chosen generator.
 
 ```
-cd syclacademy
+cd exc-sycl-training
 mkdir build
 cd build
 
-cmake ../ -G [generator] -A [arch] -DSYCL_ACADEMY_USE_COMPUTECPP=ON -DSYCL_ACADEMY_INSTALL_ROOT=/path/to/computecpp/root/dir/
+cmake ../ make -DSYCL_ACADEMY_USE_COMPUTECPP=ON -DSYCL_LANGUAGE_VERSION=2020 -DSYCL_ACADEMY_INSTALL_ROOT=/path/to/computecpp/root/dir/
 ```
 
 ### 4.) Include the SYCL header file

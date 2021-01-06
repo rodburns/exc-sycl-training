@@ -56,9 +56,3 @@ initializing it with just a `range` and no host pointer.
 
 ```make exercise_03_scalar_add_source```
 ```./Code_Exercises/Exercise_03_Scalar_Add/exercise_03_scalar_add_source```
-
-
-## Build and execution hints
-
-```make exercise_02_hello_world_source```
-```./Code_Exercises/Exercise_02_Hello_World/exercise_02_hello_world_source```
