@@ -33,10 +33,14 @@ and follow the [getting started instructions][computecpp-getting-started].
 
 #### Exercise Links
 
-[Exercise 01 - Compiling with SYCL][lesson-1-exercise]
+[Exercise 01 - Compiling with SYCL][exercise-01]
+
 [Exercise 02 - Hello World][exercise-02]
+
 [Exercise 03 - Scalar Add][exercise-03]
+
 [Exercise 07 - USM Selector][exercise-07]
+
 [Exercise 08 - USM Vector Add][exercise-08]
 
 [exercise-01]: ./Code_Exercises/Exercise_01_Compiling_with_SYCL/doc.md
