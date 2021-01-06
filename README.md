@@ -19,8 +19,6 @@ learning about SYCL below are a list of useful resources:
 
 ### How to use the Materials
 
-To use these materials simply clone this repository.
-
 The exercises can be found in "Code_Exercises" in the sub-directory for each
 topic. Each exercise has a markdown document instructing what to do in the
 exercise, a source file to start with and a solution file to provide an
@@ -43,6 +41,8 @@ and follow the [getting started instructions][computecpp-getting-started].
 
 [Exercise 08 - USM Vector Add][exercise-08]
 
+[computecpp-download]: https://developer.codeplay.com
+[computecpp-getting-started]: https://developer.codeplay.com/products/computecpp/ce/guides/getting-started?
 [exercise-01]: ./Code_Exercises/Exercise_01_Compiling_with_SYCL/doc.md
 [exercise-02]: ./Code_Exercises/Exercise_02_Hello_World/doc.md
 [exercise-03]: ./Code_Exercises/Exercise_03_Scalar_Add/doc.md
