@@ -2,7 +2,7 @@
 
 ![SYCL Academy](sycl_academy.png "SYCL Academy")
 
-This repository contains materials based on the SYCL Academy project. The
+This repository contains materials based on the [SYCL Academy project][sycl-academy]. The
 materials are provided using the "Creative Commons Attribution Share Alike 4.0
 International" license.
 
@@ -41,6 +41,7 @@ and follow the [getting started instructions][computecpp-getting-started].
 
 [Exercise 08 - USM Vector Add][exercise-08]
 
+[sycl-academy]: https://github.com/codeplaysoftware/syclacademy
 [computecpp-download]: https://developer.codeplay.com
 [computecpp-getting-started]: https://developer.codeplay.com/products/computecpp/ce/guides/getting-started?
 [exercise-01]: ./Code_Exercises/Exercise_01_Compiling_with_SYCL/doc.md
