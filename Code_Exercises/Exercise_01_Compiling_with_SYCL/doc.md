@@ -57,7 +57,7 @@ cd exc-sycl-training
 mkdir build
 cd build
 
-cmake ../ make -DSYCL_ACADEMY_USE_COMPUTECPP=ON -DSYCL_LANGUAGE_VERSION=2020 -DSYCL_ACADEMY_INSTALL_ROOT=/path/to/computecpp/root/dir/
+cmake ../ -DSYCL_ACADEMY_USE_COMPUTECPP=ON -DSYCL_LANGUAGE_VERSION=2020 -DSYCL_ACADEMY_INSTALL_ROOT=/path/to/computecpp/root/dir/
 ```
 
 ### 4.) Include the SYCL header file
