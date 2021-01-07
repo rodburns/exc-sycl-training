@@ -56,6 +56,6 @@ initializing it with just a `range` and no host pointer.
 #### Build And Execution Hints
 
 ```
-make exercise_04_vector_add_source
-./Code_Exercises/Exercise_04_Scalar_Add/exercise_04_vector_add_source
+make exercise_4_source
+./Code_Exercises/Exercise_04_Scalar_Add/exercise_4_source
 ```
