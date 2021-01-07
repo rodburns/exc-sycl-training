@@ -55,40 +55,7 @@ initializing it with just a `range` and no host pointer.
 
 #### Build And Execution Hints
 
-For For DPC++ (using the Intel DevCloud):
 ```
-dpcpp -o sycl-ex-4 -I../External/Catch2/single_include ../Code_Exercises/Exercise_4_Vector_Add/source.cpp
+make exercise_04_vector_add_source
+./Code_Exercises/Exercise_04_Scalar_Add/exercise_04_vector_add_source
 ```
-
-In Intel DevCloud, to run computational applications, you will submit jobs to a queue for execution on compute nodes,
-especially some features like longer walltime and multi-node computation is only abvailable through the job queue.
-Please refer to the [example][devcloud-job-submission].
-
-So wrap the binary into a script `job_submission` and run:
-```
-qsub job_submission
-```
-
-For ComputeCpp:
-```
-cmake -DSYCL_ACADEMY_USE_COMPUTECPP=ON -DSYCL_ACADEMY_INSTALL_ROOT=/insert/path/to/computecpp ..
-make Exercise_4_source
-./Code_Exercises/Exercise_4_Vector_Add/Exercise_4_source
-```
-
-For hipSYCL:
-```
-# Add -DHIPSYCL_GPU_ARCH=<arch> to the cmake arguments when compiling for GPUs.
-# <arch> is e.g. sm_60 for NVIDIA Pascal GPUs, gfx900 for AMD Vega 56/64, and gfx906 for Radeon VII.
-cmake -DSYCL_ACADEMY_USE_HIPSYCL=ON -DSYCL_ACADEMY_INSTALL_ROOT=/insert/path/to/hipsycl -DHIPSYCL_PLATFORM=<cpu|cuda|rocm> ..
-make Exercise_4_source
-./Code_Exercises/Exercise_4_Vector_Add/Exercise_4_source
-```
-alternatively, without cmake:
-```
-cd Code_Exercises/Exercise_4_Vector_Add
-HIPSYCL_PLATFORM=<cpu|cuda|rocm> HIPSYCL_GPU_ARCH=<arch-when-compiling-for-gpu> /path/to/hipsycl/bin/syclcc -o sycl-ex-4 -I../../External/Catch2/single_include source.cpp
-./sycl-ex-4
-```
-
-[devcloud-job-submission]: https://devcloud.intel.com/oneapi/learn/advanced-queue/basic-job-submission#command-file-job-script-
